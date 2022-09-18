@@ -9,82 +9,81 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-        <androidx.cardview.widget.CardView
-            android:tag="card_1"
-            android:onClick="openPdf"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:layout_margin="8sp"
-            android:background="@color/cardview_light_background">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="8sp"
+        android:background="@color/cardview_light_background"
+        android:onClick="openPdf"
+        android:tag="card_1">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-                <ImageView
-                    android:id="@+id/imageView1"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:background="@drawable/card_1"
-                    android:contentDescription="image 1"
-                    card_view:layout_constraintBottom_toTopOf="@+id/textView1"
-                    card_view:layout_constraintEnd_toEndOf="parent"
-                    card_view:layout_constraintStart_toStartOf="parent"
-                    card_view:layout_constraintTop_toTopOf="parent"
-                    card_view:layout_constraintVertical_bias="0.0"
-                    tools:srcCompat="@drawable/card_1" />
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/card_1"
+                android:contentDescription="image 1"
+                card_view:layout_constraintBottom_toTopOf="@+id/textView1"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintVertical_bias="0.0"
+                tools:srcCompat="@drawable/card_1" />
 
-                <TextView
-                    android:id="@+id/textView1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:text="TextView"
-                    android:textAlignment="center"
-                    card_view:layout_constraintBottom_toBottomOf="parent"
-                    card_view:layout_constraintEnd_toEndOf="parent"
-                    card_view:layout_constraintStart_toStartOf="parent"
-                    tools:text="Title One" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-        </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textAlignment="center"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                tools:text="Title One" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:tag="card_2"
-            android:onClick="openPdf"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:layout_margin="8sp"
-            android:background="@color/cardview_light_background">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="8sp"
+        android:background="@color/cardview_light_background"
+        android:onClick="openPdf"
+        android:tag="card_2">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:background="@drawable/card_2"
-                    android:contentDescription="image 2"
-                    card_view:layout_constraintBottom_toTopOf="@+id/textView2"
-                    card_view:layout_constraintEnd_toEndOf="parent"
-                    card_view:layout_constraintStart_toStartOf="parent"
-                    card_view:layout_constraintTop_toTopOf="parent"
-                    card_view:layout_constraintVertical_bias="0.0"
-                    tools:srcCompat="@drawable/card_2" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/card_2"
+                android:contentDescription="image 2"
+                card_view:layout_constraintBottom_toTopOf="@+id/textView2"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintVertical_bias="0.0"
+                tools:srcCompat="@drawable/card_2" />
 
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TextView"
-                    android:textAlignment="center"
-                    card_view:layout_constraintBottom_toBottomOf="parent"
-                    card_view:layout_constraintEnd_toEndOf="parent"
-                    card_view:layout_constraintStart_toStartOf="parent"
-                    tools:text="Title One" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-        </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textAlignment="center"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                tools:text="Title One" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 
 
 
