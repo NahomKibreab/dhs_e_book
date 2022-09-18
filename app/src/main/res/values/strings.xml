@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DHS Books</string>
+    <string name="edit_message">Message from String resource</string>
+    <string name="button_send">Send</string>
+</resources>
